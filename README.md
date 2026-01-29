@@ -25,13 +25,13 @@ This project demonstrates the deployment and securing of a corporate IT infrastr
 * Promoted the server to a **Domain Controller** and established the `lab.local` forest.
 * Configured **DNS** to ensure proper name resolution across the domain.
 
-> **[Insert Image: Server_Manager_Dashboard.png]**
+![Opis zdjęcia](img/01.png)
 
 ### 2. Organizational Structure & RBAC
 * Designed a logical **Organizational Unit (OU)** structure (IT, HR, Administration).
 * Implemented **Role-Based Access Control (RBAC)** by creating security groups (e.g., `IT_Admins`) and assigning users based on the **Principle of Least Privilege**.
 
-> **[Insert Image: AD_OU_Structure.png]**
+![Opis zdjęcia](img/02.png)
 
 ### 3. Security Hardening via GPO
 Applied critical security policies to minimize the attack surface:
@@ -39,7 +39,7 @@ Applied critical security policies to minimize the attack surface:
 * **Account Lockout Policy:** Configured a threshold of 5 failed login attempts to protect against Brute Force attacks.
 * **Control Panel Access:** Restricted access to system settings for non-admin users.
 
-> **[Insert Image: GPO_Settings_CMD_Block.png]**
+![Opis zdjęcia](img/03.png)
 
 ### 4. Secure File Services (NTFS Permissions)
 * Configured a network share with granular permissions.
