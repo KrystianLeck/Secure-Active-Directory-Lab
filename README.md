@@ -27,11 +27,15 @@ This project demonstrates the deployment and securing of a corporate IT infrastr
 
 ![Opis zdjęcia](img/01.png)
 
+---
+
 ### 2. Organizational Structure & RBAC
 * Designed a logical **Organizational Unit (OU)** structure (IT, HR, Administration).
 * Implemented **Role-Based Access Control (RBAC)** by creating security groups (e.g., `IT_Admins`) and assigning users based on the **Principle of Least Privilege**.
 
 ![Opis zdjęcia](img/02.png)
+
+---
 
 ### 3. Security Hardening via GPO
 Applied critical security policies to minimize the attack surface:
@@ -40,6 +44,8 @@ Applied critical security policies to minimize the attack surface:
 * **Control Panel Access:** Restricted access to system settings for non-admin users.
 
 ![Opis zdjęcia](img/03.png)
+
+---
 
 ### 4. Secure File Services (NTFS Permissions)
 * Configured a network share with granular permissions.
@@ -56,7 +62,7 @@ The security measures were successfully validated on the Windows 10 client:
 2. **Brute Force Protection:** After 5 incorrect password attempts, the account was successfully locked out at the Domain Controller level.
 3. **Access Control:** Verified that unauthorized users cannot access the `Secret_IT` network share.
 
->![Opis zdjęcia](img/04.png)
+![Opis zdjęcia](img/04.png)
 
 ---
 
