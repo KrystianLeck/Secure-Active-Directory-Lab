@@ -64,7 +64,7 @@ The security measures were successfully validated on the Windows 10 client:
 
 ![05_cmd_disabled_verification.png](img/05.png)
 
-![06_cmd_disabled_verification.png](img/06.png)
+![06_account_lockout_msg.png](img/06.png)
 ---
 
 ## 🧠 Key Skills Demonstrated
