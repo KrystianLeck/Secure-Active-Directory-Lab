@@ -56,7 +56,7 @@ The security measures were successfully validated on the Windows 10 client:
 2. **Brute Force Protection:** After 5 incorrect password attempts, the account was successfully locked out at the Domain Controller level.
 3. **Access Control:** Verified that unauthorized users cannot access the `Secret_IT` network share.
 
-> **![Opis zdjęcia](img/04.png)
+>![Opis zdjęcia](img/04.png)
 
 ---
 
