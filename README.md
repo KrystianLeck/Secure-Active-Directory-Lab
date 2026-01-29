@@ -46,6 +46,8 @@ Applied critical security policies to minimize the attack surface:
 * Implemented **Inheritance Blocking** on sensitive folders.
 * Verified that only members of the `IT_Admins` group can access restricted data, while other users receive an "Access Denied" message.
 
+![Opis zdjęcia](img/04.png)
+
 ---
 
 ## 🧪 Verification & Results
